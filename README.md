@@ -14,10 +14,10 @@ The dataset comes from a study of **diabetic patients vs. healthy controls**, wi
 ```
 rna-seq-deg-analysis/
 ├── data/
-│   ├── Diabetes_infection_count.csv   # Raw gene count matrix (genes × samples)
-│   └── Diabetes_infection_pheno.csv   # Sample metadata (groups, clinical labels)
+│   ├── Diabetes_infection_count.csv   # Raw gene count matrix 
+│   └── Diabetes_infection_pheno.csv   # Samples metadata
 ├── notebooks/
-│   └── RNA-seq_DEG_Analysis.ipynb     # Python pipeline: normalization, t-test, heatmap
+│   └── RNA-seq_DEG_Analysis.ipynb     # Python pipeline: normalization,histogram, t-test, clustered heatmap
 ├── scripts/
 │   └── DESeq2_analysis.R              # R pipeline: DESeq2, MA plot, Venn diagram
 ├── results/                           # Generated outputs (CSVs, plots)
