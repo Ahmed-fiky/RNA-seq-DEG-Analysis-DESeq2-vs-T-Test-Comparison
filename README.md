@@ -49,12 +49,12 @@ rna-seq-deg-analysis/
 
 ### R Pipeline (`scripts/DESeq2_analysis.R`)
 
-1. **Data loading** — count matrix + phenotype table
-2. **Metadata preparation** — align sample IDs, set `Healthy` as reference
-3. **Pre-filtering** — keep genes with ≥ 10 total counts
-4. **DESeq2 analysis** — negative binomial model, Wald test
-5. **Results** — adjusted p-value (Benjamini-Hochberg), log2 fold change
-6. **Visualization** — MA plot, Venn diagram comparing top 20 DEGs from both methods
+1. **Data loading** - count matrix + phenotype table
+2. **Metadata preparation** - align sample IDs, set `Healthy` as reference
+3. **Pre-filtering** - keep genes with ≥ 10 total counts
+4. **DESeq2 analysis** - negative binomial model, Wald test
+5. **Results** - adjusted p-value (Benjamini-Hochberg), log2 fold change
+6. **Visualization** - MA plot, Venn diagram comparing top 20 DEGs from both methods
 
 ---
 
