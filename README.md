@@ -82,5 +82,5 @@ After running both pipelines, the `results/` folder will contain:
 
 ## Author
 
-**Ahmed Alfeky** — RNA-seq DEG Analysis, 2026 
-Data: Diabetic infection cohort RNA-seq study
+**Ahmed Alfeky** - RNA-seq DEG Analysis
+Data: Diabetic infection cohort data
