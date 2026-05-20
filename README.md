@@ -1,4 +1,4 @@
-# RNA-seq DEG Analysis: DESeq2 vs Statistical Methods Comparison
+# DESeq2 vs Statistical Methods Comparison for extracting differentially expressed genes
 
 A bioinformatics project comparing two approaches to identifying **Differentially Expressed Genes** from RNA-seq data:
 
